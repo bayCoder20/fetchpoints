@@ -14,7 +14,7 @@
 - Deduct general points fom all payers
 - Get balance of points 
 
-** API Calls**
+**API Calls**
 - Add Points Per Payer, Deduct Points via Negative Value, Returns Confirmation via POST Method
 -- localhost:8080/api/fetchpoints/add
 -- example... {"payerName":"dannon","points":300}
