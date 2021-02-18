@@ -17,18 +17,11 @@
 ** API Calls**
 - Add Points Per Payer, Deduct Points via Negative Value, Returns Confirmation via POST Method
 -- localhost:8080/api/fetchpoints/add
-example... 
-{
-	"payerName":"dannon",
-	"points":300
-}
+-- example... {"payerName":"dannon","points":300}
 
 - Deduct General Points, Returns Deduction Summary via POST Method
 -- localhost:8080/api/fetchpoints/deduct
-example...
-{
-	"points":5000
-}
+-- example... {"points":5000}
 
 - Get Point balance, Returns Balance Summary via GET Metod 
 -- localhost:8080/api/fetchpoints/balance
