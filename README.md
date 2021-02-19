@@ -3,7 +3,7 @@
 ------------
 
 **Spring Boot application for tracking the managment of reward points.**
-- Creates one H2 database table named "tbl_points"
+- Creates two H2 database tables named "tbl_points" and "tbl_log"
 - H2 username is "root" and password is "password" see application.properties for reference.
 - Utilizes port 8080
 
